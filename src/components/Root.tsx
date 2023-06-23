@@ -1,5 +1,4 @@
 import { Box, HStack, IconButton, Image, Text, VStack } from "@chakra-ui/react";
-import { Outlet } from "react-router-dom";
 import { FaChevronLeft, FaExternalLinkAlt } from "react-icons/fa";
 import InitMessage from "../components/InitMessage";
 import InputMessage from "./InputMessage";
@@ -51,7 +50,8 @@ export default function Root() {
           </HStack>
         </HStack>
       </Box>
-      {/* 채팅 섹션 */}
+
+      {/* Chatting & Propmt section */}
       <InputMessage />
     </Box>
   );

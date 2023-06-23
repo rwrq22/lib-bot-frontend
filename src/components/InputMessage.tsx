@@ -14,11 +14,6 @@ interface IMessage {
   response: string;
 }
 
-interface IChatResponse {
-  pk: number;
-  text: string;
-}
-
 export default function InputMessage() {
   const navigate = useNavigate();
   const { register, handleSubmit, reset } = useForm<ISendMessageVariables>();

@@ -1,5 +1,5 @@
 import { IconButton } from "@chakra-ui/react";
-import { FaMoon } from "react-icons/fa";
+import { FaRegTrashAlt } from "react-icons/fa";
 import { useMutation } from "@tanstack/react-query";
 import { useNavigate } from "react-router-dom";
 import { deleteMessages } from "../api";
@@ -24,7 +24,7 @@ export default function InitMessage() {
       borderRadius="full"
       aria-label="Delete messages"
       type="button"
-      icon={<FaMoon />}
+      icon={<FaRegTrashAlt />}
     />
   );
 }

@@ -1,13 +1,4 @@
-import {
-  Box,
-  HStack,
-  IconButton,
-  Image,
-  Text,
-  VStack,
-  Input,
-  Stack,
-} from "@chakra-ui/react";
+import { Box, HStack, Text, VStack } from "@chakra-ui/react";
 
 interface IMessageProps {
   text: string;
